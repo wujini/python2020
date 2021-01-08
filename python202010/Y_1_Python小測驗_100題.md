@@ -1,4 +1,4 @@
-# Python小測驗_100題
+# Python小測驗_100題 
 # 1.Python入門
 ```
 1.要在螢幕輸出Hello, Python!  底下程式需使用哪個函數:
