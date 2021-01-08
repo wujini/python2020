@@ -2,7 +2,7 @@
 # 1.Python入門
 ```
 1.要在螢幕輸出Hello, Python!  底下程式需使用哪個函數:
-
+A
 #!/usr/bin/python3
 ________("Hello, Python!")
 
@@ -10,7 +10,7 @@ ________("Hello, Python!")
 ```
 ```
 2.要在程式碼中新增一行註解，底下程式需使用哪個符號:
-
+C
 #!/usr/bin/python3
 __這是一行註解
 print("Hello, Python!")
@@ -19,7 +19,7 @@ print("Hello, Python!")
 ```
 ```
 3.要新建一個變數名稱為school，並將變數值設定為ksu，底下程式需填入:
-
+B
 #!/usr/bin/python3
 (1)______ = “(2)______”
 
@@ -28,7 +28,7 @@ print("Hello, Python!")
 ```
 ```
 4.要檢查變數資料型別 底下程式需使用哪個函數:
-
+D
 #!/usr/bin/python3
 y = 65535
 print(______(y))
@@ -38,7 +38,7 @@ print(______(y))
 ```
 ```
 5.試問以下程式執行後輸出什麼:
-
+A
 #!/usr/bin/python3
 y = 65535
 print(type(y))
@@ -47,7 +47,7 @@ print(type(y))
 ```
 ```
 6.要在程式碼中進行資料型態轉換 底下程式需使用哪個函數將x轉換成float:
-
+C
 #!/usr/bin/python3
 x = 65535
 ______(x)
@@ -56,7 +56,7 @@ ______(x)
 ```
 ```
 7.要計算一個字串長度 底下程式需使用哪個函數:
-
+B
 #!/usr/bin/python3
 string1 = "Hello, Python!"
 print(___________(string1))
@@ -65,7 +65,7 @@ print(___________(string1))
 ```
 ```
 8.試問以下程式執行後輸出什麼結果:
-
+B
 #!/usr/bin/python3
 print(100 < 200)
 
@@ -74,6 +74,7 @@ print(100 < 200)
 # 2.資料型態及其運算 DataType
 ```
 9.要定義一個整數變數a  底下程式碼需填入什麼:
+A
 #!/usr/bin/python3
 a = ___________
 
@@ -84,6 +85,7 @@ a = ___________
 ```
 ```
 10.試問以下程式執行後輸出什麼結果:
+D
 #!/usr/bin/python3
 a = bool(100)
 print(a)
@@ -95,6 +97,7 @@ print(a)
 ```
 ```
 11.要在螢幕輸出變數x的資料型態  底下程式需使用哪個函數:
+B
 #!/usr/bin/python3
 a = 100
 print(_______(a))
@@ -103,6 +106,7 @@ print(_______(a))
 ```
 ```
 12.試問以下程式執行後輸出什麼結果:
+A
 #!/usr/bin/python3
 a = “Python!”
 print(type(a))
@@ -111,6 +115,7 @@ print(type(a))
 ```
 ```
 13.試問以下程式執行後輸出什麼結果:
+D
 #!/usr/bin/python3
 a = ("Python", True, 1234)
 print(type(a))
@@ -119,6 +124,7 @@ print(type(a))
 ```
 ```
 14.試問以下程式執行後輸出什麼結果:
+C
 #!/usr/bin/python3
 a = ["Python", "True", "1234"]
 print(type(a))
@@ -127,6 +133,7 @@ print(type(a))
 ```
 ```
 15.試問以下程式執行後輸出什麼結果:
+D
 #!/usr/bin/python3
 a = {"name" : "Eric", "age" : 90}
 print(type(a))
@@ -136,7 +143,7 @@ print(type(a))
 ## 字串1
 ```
 16.試問若要定義一字串變數應填入什麼:
-
+A
 #!/usr/bin/python3
 a = ________
 print(a)
@@ -148,7 +155,7 @@ print(a)
 ```
 ```
 17.試問以下程式執行後輸出什麼結果:
-
+B
 #!/usr/bin/python3
 a = "Hello, World!"
 print(a[1])
@@ -157,7 +164,7 @@ print(a[1])
 ```
 ```
 18.要在螢幕輸出llo  底下程式需填入什麼:
-
+C
 #!/usr/bin/python3
 a = "Hello, World!"
 print(a[__________])
@@ -166,6 +173,7 @@ print(a[__________])
 ```
 ```
 19.試問以下程式執行後輸出什麼結果:
+A
 #!/usr/bin/python3
 a = "        HelloPython "
 print(a.strip())
@@ -177,6 +185,7 @@ print(a.strip())
 ```
 ```
 20.試問若要判斷Kun是否存在於txt字串中以下程式應填入什麼:
+D
 #!/usr/bin/python3
 txt = " Kun Shan University was officially founded on April 29, 1965"
 x = "Kun" __________ txt
@@ -189,6 +198,7 @@ print(x)
 ```
 ```
 21.試問若要輸出a、b兩字串合併後的結果以下程式應填入什麼:
+B
 #!/usr/bin/python3
 a = “Kun Shan”
 b = “University”
@@ -201,6 +211,7 @@ print(__________)
 ```
 ```
 22.試問以下程式執行後輸出什麼結果:
+D
 #!/usr/bin/python3
 a = “Kun Shan”
 b = 100
@@ -214,6 +225,7 @@ print(a + b)
 ## 字串2
 ```
 23.試問以下程式執行後輸出什麼結果:
+B
 #!/usr/bin/python3
 a = 'Kun Shan {}'
 b = 'University'
@@ -226,6 +238,7 @@ print(a.format(b))
 ```
 ```
 24.試問以下程式執行後輸出什麼結果:
+A
 #!/usr/bin/python3
 a = '{1} Kun Shan {0}'
 b = 'University'
@@ -238,6 +251,7 @@ print(a.format(b,‘Hello’))
 ```
 ```
 25.試問若以下程式執行後要輸出一對雙引號需填入什麼:
+C
 #!/usr/bin/python3
 a = “_____________”
 print(a)
@@ -249,6 +263,7 @@ print(a)
 ```
 ```
 26.要在螢幕輸出字串的長度  底下程式需使用哪個函數:
+A
 #!/usr/bin/python3
 a = “Kun Shan”
 print(_______)
@@ -260,6 +275,7 @@ print(_______)
 ```
 ```
 27.試問要英文字母轉為大寫以下程式需填入什麼:
+C
 #!/usr/bin/python3
 a = “Python”
 print(__________)
@@ -271,6 +287,7 @@ print(__________)
 ```
 ```
 28.試問以下程式執行後輸出什麼結果:
+D
 #!/usr/bin/python3
 print(“%s Python! %d” % (“Hello”,123))
 
@@ -281,6 +298,7 @@ print(“%s Python! %d” % (“Hello”,123))
 ```
 ```
 29.若要將字串a中的o替換成x以下程式需填入什麼:
+A
 a = “Hello Python!”
 a = a._________
 print(a)
@@ -296,6 +314,7 @@ print(a)
 if None:
     print("Hello")
 以上程式碼輸出的結果是？
+A
 
 (A) 沒有任何輸出
 (B) 語法錯誤
@@ -307,6 +326,7 @@ if None:
 if 1:
     print("Hello")
 以上程式碼輸出的結果是？
+C
 
 (A) 沒有任何輸出
 (B) 語法錯誤
@@ -318,6 +338,7 @@ if 1:
 if 100:
     print("Hello")
 以上程式碼輸出的結果是？
+C
 
 (A) 沒有任何輸出
 (B) 語法錯誤
@@ -329,6 +350,7 @@ if 100:
 if 0:
     print("Hello")
 以上程式碼輸出的結果是？
+A
 
 (A) 沒有任何輸出
 (B) 語法錯誤
@@ -340,6 +362,7 @@ if 0:
 if 100 == “100”:
     print("Hello")
 以上程式碼輸出的結果是？
+A
 
 (A) 沒有任何輸出
 (B) 語法錯誤
@@ -351,6 +374,7 @@ if 100 == “100”:
 if 100 == 100:
     print("Hello")
 以上程式碼輸出的結果是？
+C
 
 (A) 沒有任何輸出
 (B) 語法錯誤
@@ -362,6 +386,7 @@ if 100 == 100:
 if 100 >= 1:
     print("Hello")
 以上程式碼輸出的結果是？
+C
 
 (A) 沒有任何輸出
 (B) 語法錯誤
@@ -378,6 +403,7 @@ if ________:
 else:
   print("Hello World!")
 若要讓程式印出Hello World!需在___中填入什麼？
+A
 
 (A) a == b、a < b、a <= b
 (B) a != b
@@ -390,6 +416,7 @@ a = 50
 b = 1000
 print("A") if a > b else print("B")
 以上程式碼輸出的結果是？
+C
 
 (A) b
 (B) a
@@ -402,6 +429,7 @@ a = 50
 b = 51
 print("A") if a > b else print("B") if a != b else print("!=")
 以上程式碼輸出的結果是？
+C
 
 (A) A
 (B) !=
@@ -416,6 +444,7 @@ c = 0
 if a > b ___ c > a:
   print("True")
 若要讓程式印出Hello World!需在___中填入什麼？
+?
 
 (A) not in
 (B) not
@@ -430,6 +459,7 @@ b = a + 10
 if b > a:
   ______
 若要讓程式成功編譯執行應填入什麼？
+A
 
 (A) pass
 (B) return 0
@@ -445,6 +475,7 @@ if x >= 10:
   else:
     print("2")
 以上程式碼輸出的結果是？
+C
 
 (A) 10
 (B) 1
@@ -464,6 +495,7 @@ elif a == b:
       print("1")
     else:
       print("2")
+D
       
 (A) b > a
 (B) 2
@@ -475,6 +507,7 @@ elif a == b:
 44.
 cat = ______
 創建一個cat的串列需填入什麼？
+A
 
 (A) [“Python”,”C”,”JAVA”,” Assembly”]
 (B) {'a': 1, 'b': 2, 'b': '3'}
@@ -486,6 +519,7 @@ cat = ______
 thisislist = [1,2,3,4,5]
 print(__________)
 輸出list中的第3個元素需填入什麼？
+D
 
 (A) thisislist(3)
 (B) thisislist(2)
@@ -497,6 +531,7 @@ print(__________)
 thisislist = [1,2,3,4,5]
 print(thisislist[-4])
 以上程式碼輸出的結果是？
+B
 
 (A) 1
 (B) 2
