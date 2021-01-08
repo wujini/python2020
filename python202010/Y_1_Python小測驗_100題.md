@@ -543,6 +543,7 @@ B
 thisislist = [1,2,3,4,5]
 print(thisislist[_________])
 若要以上程式碼輸出的結果是2,3,4需要填入什麼？
+A
 
 (A) 1:4
 (B) 1:3
@@ -554,6 +555,7 @@ print(thisislist[_________])
 thisislist = [1,2,3,4,5]
 print(thisislist[-5:-3:2])
 以上程式碼輸出的結果是？
+A
 
 (A) 1
 (B) 2
@@ -566,6 +568,7 @@ thisislist = [1,2,3,4,5]
 ________ = 100
 print(thisislist)
 若需變更第四個元素為100需要填入什麼？
+D
 
 (A) thisislist(4)
 (B) thisislist(3)
@@ -577,6 +580,7 @@ print(thisislist)
 thisislist = [1,2,3,4,5]
 __________
 若需在list後方加入一元素6要填入什麼？
+A
 
 (A) thisislist.append(6)
 (B) thisislist.add(6)
@@ -588,6 +592,7 @@ __________
 51.
 thisisdict = ________
 建立一個字典變數需填入什麼？
+B
 
 (A) [“Python”,”C”,”JAVA”,” Assembly”]
 (B) {'a': 1, 'b': 2, 'c': 3}
@@ -600,6 +605,7 @@ thisisdict = {'a': 1, 'b': 2, 'c': 3}
 x = ___________
 print(x)
 要取出b的值需填入什麼？
+C
 
 (A) thisisdict[b]
 (B) thisisdict["2"]
@@ -612,6 +618,7 @@ thisisdict = {'a': 1, 'b': 2, 'c': 3}
 ______ = 100
 print(thisisdict)
 若需改變b的值需填入什麼？
+C
 
 (A) thisisdict[b]
 (B) thisisdict["2"]
